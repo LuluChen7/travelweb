@@ -10,6 +10,11 @@
   "cta": {
     "start": "Start exploring"
   },
+  "nav": {
+    "routes": "Routes",
+    "about": "About",
+    "contact": "Contact"
+},
   "sections": {
     "introTitle": "Designed for travelers between China and Brazil",
     "introBody": "Travel Web helps you understand seasons, must-see spots and cultural tips so you can plan confident trips between China and Brazil.",
@@ -22,6 +27,15 @@
     "destinationsTitle": "Sample routes to inspire you",
     "destinationsBrazilChina": "Classic China ⇄ Brazil highlights – big cities, iconic landmarks and first-time routes.",
     "destinationsCityBreaks": "City breaks with food and culture – from São Paulo to Shanghai and beyond.",
-    "destinationsNature": "Nature and slow journeys – mountains, coasts and small towns off the usual path."
+    "destinationsNature": "Nature and slow journeys – mountains, coasts and small towns off the usual path.",
+    
+    "aboutTitle": "About this project",
+    "aboutBody1": "Travel Web is a personal project built to explore how to create and maintain a real-world travel website.",
+    "aboutBody2": "It focuses on routes between China and Brazil and uses modern web tools, so the site can grow and evolve over time.",
+
+    "contactTitle": "Contact",
+    "contactIntro": "This project is still evolving. If you have ideas, feedback or want to collaborate, you can reach out:",
+    "contactEmailLabel": "Email",
+    "contactSocialLabel": "Social"
   }
 }

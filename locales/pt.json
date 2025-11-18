@@ -10,6 +10,11 @@
   "cta": {
     "start": "Começar"
   },
+  "nav": {
+    "routes": "Rotas",
+    "about": "Sobre",
+    "contact": "Contato"
+  },
   "sections": {
     "introTitle": "Feito para viajantes entre China e Brasil",
     "introBody": "O Travel Web ajuda você a entender estações, pontos imperdíveis e dicas culturais para planejar viagens mais seguras entre China e Brasil.",
@@ -22,6 +27,15 @@
     "destinationsTitle": "Rotas de exemplo para inspirar você",
     "destinationsBrazilChina": "Destaques clássicos China ⇄ Brasil – grandes cidades, pontos icônicos e rotas para primeira viagem.",
     "destinationsCityBreaks": "City breaks com comida e cultura – de São Paulo a Xangai e muito mais.",
-    "destinationsNature": "Natureza e viagens mais lentas – montanhas, litoral e pequenas cidades fora do comum."
+    "destinationsNature": "Natureza e viagens mais lentas – montanhas, litoral e pequenas cidades fora do comum.",
+
+    "aboutTitle": "Sobre este projeto",
+    "aboutBody1": "O Travel Web é um projeto pessoal criado para explorar como construir e manter um site de viagens real.",
+    "aboutBody2": "Ele foca em rotas entre China e Brasil e usa ferramentas modernas de desenvolvimento para poder crescer com o tempo.",
+
+    "contactTitle": "Contato",
+    "contactIntro": "Este projeto ainda está em evolução. Se você tiver ideias, feedback ou quiser colaborar, pode entrar em contato:",
+    "contactEmailLabel": "E-mail",
+    "contactSocialLabel": "Redes sociais"
   }
 }

@@ -16,7 +16,23 @@ export default function Home() {
             Travel Web
           </span>
         </div>
-        <LanguageSwitcher />
+
+        <div className="flex items-center gap-6">
+          {/* 顶部文字导航：锚点跳转到页面下方 section */}
+          <nav className="hidden md:flex gap-4 text-sm text-gray-700">
+            <a href="#routes" className="hover:text-gray-900">
+              {t('nav.routes')}
+            </a>
+            <a href="#about" className="hover:text-gray-900">
+              {t('nav.about')}
+            </a>
+            <a href="#contact" className="hover:text-gray-900">
+              {t('nav.contact')}
+            </a>
+          </nav>
+
+          <LanguageSwitcher />
+        </div>
       </header>
 
       {/* Hero + 简介 */}
@@ -31,9 +47,12 @@ export default function Home() {
               {t('hero.subtitle')}
             </p>
 
-            <button className="px-6 py-3 rounded-2xl bg-black text-white text-base shadow-sm hover:bg-gray-900 transition">
+            <a
+              href="#routes"
+              className="inline-block px-6 py-3 rounded-2xl bg-black text-white text-base shadow-sm hover:bg-gray-900 transition"
+            >
               {t('cta.start')}
-            </button>
+            </a>
 
             <p className="mt-6 text-sm text-gray-500 max-w-md">
               {t('sections.introBody')}
@@ -64,7 +83,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 为什么选这个网站 */}
+      {/* 为什么用这个网站 */}
       <section className="max-w-5xl mx-auto px-6 pb-16">
         <h2 className="text-2xl md:text-3xl font-bold mb-6">
           {t('sections.whyTitle')}
@@ -97,8 +116,8 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 示例路线卡片 */}
-      <section className="max-w-5xl mx-auto px-6 pb-20">
+      {/* Routes 区：示例路线卡片 */}
+      <section id="routes" className="max-w-5xl mx-auto px-6 pb-20 scroll-mt-20">
         <h2 className="text-2xl md:text-3xl font-bold mb-6">
           {t('sections.destinationsTitle')}
         </h2>
@@ -148,6 +167,60 @@ export default function Home() {
             </div>
           </article>
         </div>
+      </section>
+
+      {/* About 区 */}
+      <section id="about" className="max-w-5xl mx-auto px-6 pb-20 border-t border-gray-100 pt-12 scroll-mt-20">
+        <h2 className="text-2xl md:text-3xl font-bold mb-4">
+          {t('sections.aboutTitle')}
+        </h2>
+        <p className="text-sm md:text-base text-gray-700 mb-3">
+          {t('sections.aboutBody1')}
+        </p>
+        <p className="text-sm md:text-base text-gray-700">
+          {t('sections.aboutBody2')}
+        </p>
+      </section>
+
+      {/* Contact 区 */}
+      <section id="contact" className="max-w-5xl mx-auto px-6 pb-16 border-t border-gray-100 pt-12 scroll-mt-20">
+        <h2 className="text-2xl md:text-3xl font-bold mb-4">
+          {t('sections.contactTitle')}
+        </h2>
+        <p className="text-sm md:text-base text-gray-700 mb-6">
+          {t('sections.contactIntro')}
+        </p>
+
+        <div className="grid md:grid-cols-2 gap-6">
+          <div className="bg-white shadow-sm rounded-xl p-5 border border-gray-100">
+            <h3 className="text-sm font-semibold mb-2">
+              {t('sections.contactEmailLabel')}
+            </h3>
+            {/* 把这里的邮箱换成你自己的 */}
+            <a
+              href="mailto:youremail@example.com"
+              className="text-sm text-sky-700 hover:underline break-all"
+            >
+              youremail@example.com
+            </a>
+          </div>
+
+          <div className="bg-white shadow-sm rounded-xl p-5 border border-gray-100">
+            <h3 className="text-sm font-semibold mb-2">
+              {t('sections.contactSocialLabel')}
+            </h3>
+            <ul className="text-sm text-gray-700 space-y-1">
+              {/* 这里可以放 Instagram、微信、WhatsApp 等 */}
+              <li>Instagram: @youraccount</li>
+              <li>WeChat: your-wechat-id</li>
+              <li>WhatsApp: +55 xx xxxx-xxxx</li>
+            </ul>
+          </div>
+        </div>
+
+        <p className="text-xs text-gray-400 mt-10 pb-4">
+          © {new Date().getFullYear()} Travel Web. All rights reserved.
+        </p>
       </section>
     </main>
   );

@@ -10,6 +10,11 @@
   "cta": {
     "start": "开始探索"
   },
+  "nav": {
+    "routes": "路线",
+    "about": "关于",
+    "contact": "联系"
+  },
   "sections": {
     "introTitle": "专为往返中国与巴西的旅人设计",
     "introBody": "Travel Web 帮你快速了解季节、必去景点和文化小贴士，让中巴之间的旅行规划变得更简单。",
@@ -22,6 +27,15 @@
     "destinationsTitle": "一些示例路线，先帮你找感觉",
     "destinationsBrazilChina": "经典中巴往返路线——大城市、标志性景点与新手首选组合。",
     "destinationsCityBreaks": "城市小旅行——从圣保罗到上海，美食与文化一网打尽。",
-    "destinationsNature": "亲近自然与慢旅行——山川海岸和小城镇，远离人潮路线。"
+    "destinationsNature": "亲近自然与慢旅行——山川海岸和小城镇，远离人潮路线。",
+
+    "aboutTitle": "关于这个项目",
+    "aboutBody1": "Travel Web 是一个个人项目，用来实践如何从零搭建并维护一个真实的旅游网站。",
+    "aboutBody2": "目前重点围绕中国和巴西之间的路线，并使用现代前端技术，让网站可以在未来持续扩展。",
+
+    "contactTitle": "联系",
+    "contactIntro": "这个项目还在不断完善中，如果你有想法、建议，或者想一起合作，可以通过下面的方式联系：",
+    "contactEmailLabel": "邮箱",
+    "contactSocialLabel": "社交账号"
   }
 }
