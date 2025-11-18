@@ -1,0 +1,27 @@
+{
+  "meta": {
+    "title": "Travel Web",
+    "desc": "探索中国与巴西之间的旅行灵感"
+  },
+  "hero": {
+    "title": "探索中巴之间的旅行路线",
+    "subtitle": "帮你搞清季节、签证与必去景点，放心出发"
+  },
+  "cta": {
+    "start": "开始探索"
+  },
+  "sections": {
+    "introTitle": "专为往返中国与巴西的旅人设计",
+    "introBody": "Travel Web 帮你快速了解季节、必去景点和文化小贴士，让中巴之间的旅行规划变得更简单。",
+
+    "whyTitle": "为什么用 Travel Web？",
+    "why1": "从中巴视角整理路线，而不是简单复制网上的通用攻略。",
+    "why2": "用简单的方式说明季节、签证和交通，不让你困在信息海洋。",
+    "why3": "干净无广告的界面，只专注与你真正需要的决策信息。",
+
+    "destinationsTitle": "一些示例路线，先帮你找感觉",
+    "destinationsBrazilChina": "经典中巴往返路线——大城市、标志性景点与新手首选组合。",
+    "destinationsCityBreaks": "城市小旅行——从圣保罗到上海，美食与文化一网打尽。",
+    "destinationsNature": "亲近自然与慢旅行——山川海岸和小城镇，远离人潮路线。"
+  }
+}

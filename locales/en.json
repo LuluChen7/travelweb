@@ -1,0 +1,27 @@
+{
+  "meta": {
+    "title": "Travel Web",
+    "desc": "Explore China–Brazil travel ideas"
+  },
+  "hero": {
+    "title": "Explore China–Brazil trips",
+    "subtitle": "Routes, visa tips and best seasons"
+  },
+  "cta": {
+    "start": "Start exploring"
+  },
+  "sections": {
+    "introTitle": "Designed for travelers between China and Brazil",
+    "introBody": "Travel Web helps you understand seasons, must-see spots and cultural tips so you can plan confident trips between China and Brazil.",
+
+    "whyTitle": "Why use Travel Web?",
+    "why1": "Curated routes created from a China–Brazil perspective, not generic copy-paste guides.",
+    "why2": "Simple overviews of seasons, visas and local transport so you don’t get lost in details.",
+    "why3": "Clean, ad-free interface that focuses on what you really need to decide your next trip.",
+
+    "destinationsTitle": "Sample routes to inspire you",
+    "destinationsBrazilChina": "Classic China ⇄ Brazil highlights – big cities, iconic landmarks and first-time routes.",
+    "destinationsCityBreaks": "City breaks with food and culture – from São Paulo to Shanghai and beyond.",
+    "destinationsNature": "Nature and slow journeys – mountains, coasts and small towns off the usual path."
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "meta": {
+    "title": "Travel Web",
+    "desc": "Ideias de viagem China–Brasil"
+  },
+  "hero": {
+    "title": "Explore viagens China–Brasil",
+    "subtitle": "Rotas, vistos e melhores épocas"
+  },
+  "cta": {
+    "start": "Começar"
+  },
+  "sections": {
+    "introTitle": "Feito para viajantes entre China e Brasil",
+    "introBody": "O Travel Web ajuda você a entender estações, pontos imperdíveis e dicas culturais para planejar viagens mais seguras entre China e Brasil.",
+
+    "whyTitle": "Por que usar o Travel Web?",
+    "why1": "Rotas selecionadas a partir de uma visão China–Brasil, não guias genéricos copiados da internet.",
+    "why2": "Visão simples sobre estações, vistos e transporte local para você não se perder nos detalhes.",
+    "why3": "Interface limpa, sem anúncios, focada apenas no que você precisa para decidir a próxima viagem.",
+
+    "destinationsTitle": "Rotas de exemplo para inspirar você",
+    "destinationsBrazilChina": "Destaques clássicos China ⇄ Brasil – grandes cidades, pontos icônicos e rotas para primeira viagem.",
+    "destinationsCityBreaks": "City breaks com comida e cultura – de São Paulo a Xangai e muito mais.",
+    "destinationsNature": "Natureza e viagens mais lentas – montanhas, litoral e pequenas cidades fora do comum."
+  }
+}
